@@ -1,4 +1,4 @@
-//strings kek
+//strings
 console.log('hello worls');
 
 let email = 'mario@gmail.com';

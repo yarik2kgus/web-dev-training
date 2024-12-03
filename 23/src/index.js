@@ -12,3 +12,9 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 // Пользовательские стили
 import './styles/style.css';
+
+//hear animation
+document.querySelector('.heart-icon').addEventListener('click', function() {
+  this.classList.toggle('liked');
+});
+

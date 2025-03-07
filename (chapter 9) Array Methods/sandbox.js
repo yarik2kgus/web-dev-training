@@ -106,7 +106,7 @@ scores5.sort((a,b) => {
 });
 console.log(scores5);
 
-//3 sorting objects
+//3 sorting objects (по убыванию)
 const players = [
     {name: 'mario', score:20},
     {name: 'yoshi', score:10},
@@ -117,9 +117,9 @@ const players = [
 
 players.sort((a,b) => {  //предстваим что а = 10, а b = 50 по массиву
     if(a.score > b.score){
-        return -1; // a будет расположено перед b
+        return -1; // a будет расположено перед (раньше чем) b 
     } else if (b.score > a.score){
-        return 1; // b  будет размещено перед а
+        return 1; // b  будет размещено перед (раньше чем) а
     } else {
         return 0; // порядок не важен (число на своем месте)
     }
